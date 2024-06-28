@@ -8,7 +8,10 @@ require('lualine').setup({
                 lualine_a = {
                         'mode',
                 },
-                lualine_b = {
+				lualine_b = {
+					'branch',
+				},
+                lualine_c = {
 						 'buffers',
                 }
         }
