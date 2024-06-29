@@ -1,8 +1,5 @@
 "Keymappings"
 
-"Neo Tree
-nmap <silent> <leader>tt :Neotree toggle<CR>
-nmap <silent> <leader>tf :Neotree focus<CR>
 
 
 "Telescope
@@ -29,7 +26,7 @@ nmap <silent> <esc><esc> :noh<cr>
 
 "search up
 
-
+nmap <silent> <leader>tt :lua MiniFiles.open() <cr>
 
 "Telescope
 
@@ -42,4 +39,5 @@ EOF
 "Floaterm
 map <leader>ot :FloatermNew!<CR>
 
-
+"Git
+nmap <leader>gg :LazyGit<CR>

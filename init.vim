@@ -46,12 +46,14 @@ call plug#begin("~/AppData/Local/nvim/plugins")
         Plug 'nvim-telescope/telescope.nvim'
         Plug 'epwalsh/pomo.nvim', {'tag': '*'}
         Plug 'voldikss/vim-floaterm'
-        Plug 'nvim-neo-tree/neo-tree.nvim'
         Plug 'navarasu/onedark.nvim'
         Plug 'preservim/vim-markdown'
         Plug 'epwalsh/obsidian.nvim', {'tag': '*'}
         Plug 'lewis6991/gitsigns.nvim'
         Plug 'kdheepak/lazygit.nvim'
+        Plug 'echasnovski/mini.files'
+        Plug 'echasnovski/mini.nvim'
+        Plug 'folke/flash.nvim'
 call plug#end()
 
 set termguicolors
